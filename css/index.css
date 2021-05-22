@@ -1,0 +1,81 @@
+.list a {
+  text-decoration: none;
+}
+
+.list .cart {
+  background-color: #7936C6;
+  width: 100%;
+  height: 0px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list .card {
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+  /* padding: .5rem 1rem; */
+}
+.list .card:hover .cart {
+  height: 95px;
+}
+
+.list .cart .btn-cart{
+    color: #ffffff;
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+}
+.list .cart .btn-cart:focus {
+    outline: none;
+}
+
+nav .header_btn{
+  text-decoration: none;
+  border: none;
+  color: #ffffff;
+  background: transparent;
+  margin-right: 10px;
+  transition: 0.5s ease;
+  border-radius: 5px;
+}
+
+nav .header_btn:hover{
+  color: #7936C6;
+  background: #ffffff;
+}
+
+nav .header_btn i{
+  padding: 10px 5px;
+}
+
+nav a.header_icon{
+  text-decoration: none;
+  border: none;
+  color: #ffffff;
+  background: transparent;
+  margin-right: 10px;
+  transition: 0.5s ease;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+nav .header_icon:hover{
+  color: #7936C6;
+  background: #ffffff;
+}
+
+nav form input.form-control:focus{
+  border-color: transparent;
+  box-shadow: none;
+}
+
+
+
+
